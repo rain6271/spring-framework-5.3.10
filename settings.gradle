@@ -36,6 +36,8 @@ include "spring-webmvc"
 include "spring-websocket"
 include "framework-bom"
 include "integration-tests"
+include 'spring-zpr'
+include 'spring-zw'
 
 
 rootProject.name = "spring"
@@ -63,4 +65,5 @@ include 'tuling-boot'
 include 'tuling-vip-demo'
 include 'spring-tuling-webmvc'
 include 'spring-tuling-boot'
+include 'spring-tuling-webmvc'
 
